@@ -1,6 +1,6 @@
 {
   "_note": "闭源模型的「体型」代理指标：输出价格档位 × 厂商命名档位合成的 1–5 档规模。这份档位已经并进 data/models.json 的 params.sizeTier / params.sizeTierBasis，本文件只作为独立索引保留，方便离线核对。",
-  "generatedAt": "2026-10-07T02:03:24.986Z",
+  "generatedAt": "2026-10-07T13:48:18.149Z",
   "tiers": {
     "aion-labs/aion-2.0": {
       "basis": "price",
@@ -597,10 +597,6 @@
     "inference-net/schematron-v2-turbo": {
       "basis": "price+naming",
       "tier": 1
-    },
-    "kwaipilot/kat-coder-pro-v2.5": {
-      "basis": "price+naming",
-      "tier": 4
     },
     "mancer/weaver": {
       "basis": "price",
