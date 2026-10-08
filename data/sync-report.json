@@ -78,7 +78,7 @@
         "zhipuai/glm-5.3-prime"
       ]
     },
-    "liveModels": 623,
+    "liveModels": 622,
     "modelsOnlyElo": 34,
     "modelsWithAny": 253
   },
@@ -114,12 +114,12 @@
     "fromModelsDev": 447,
     "models": 642,
     "pendingDiscoveries": 27,
-    "promotedDiscoveries": 176,
+    "promotedDiscoveries": 175,
     "quickPromotedDiscoveries": 9,
     "releaseDateOutliersDropped": 20,
     "resurrected": 0,
-    "retiredThisRun": 19,
-    "retiredTotal": 19,
+    "retiredThisRun": 20,
+    "retiredTotal": 20,
     "vendors": 65
   },
   "coverage": {
@@ -284,8 +284,8 @@
       "total": 642
     },
     "pricing.cachedInputPerMTok": {
-      "filled": 387,
-      "pct": 60.3,
+      "filled": 386,
+      "pct": 60.1,
       "total": 642
     },
     "pricing.inputPerMTok": {
@@ -1873,11 +1873,11 @@
   "fallbackCoverage": {
     "_note": "models.dev 缺项时的兜底源贡献（存活模型口径）。before 是只认 models.dev 时的覆盖数，after 是兜底之后。仲裁顺序：定价 models.dev → LiteLLM → OpenRouter → Vercel；上下文 / 最大输出 / 模态 models.dev → OpenRouter → Vercel → LiteLLM。LiteLLM 只在第一方 provider 有条目、或所有托管商条目一致时才采信；图像/语音按张按分钟的价一律不折算。OpenRouter 的 benchmarks.* 已整段剔除，兜底只读 pricing / context_length / architecture。",
     "after": {
-      "contextWindow": 613,
-      "maxOutput": 596,
-      "modalities": 623,
-      "pricing.inputPerMTok": 555,
-      "pricing.outputPerMTok": 552
+      "contextWindow": 612,
+      "maxOutput": 595,
+      "modalities": 622,
+      "pricing.inputPerMTok": 554,
+      "pricing.outputPerMTok": 551
     },
     "before": {
       "contextWindow": 437,
@@ -1889,36 +1889,36 @@
     "bySource": {
       "contextWindow": {
         "openrouter": 139,
-        "vercel-gateway": 37
+        "vercel-gateway": 36
       },
       "maxOutput": {
         "litellm": 1,
         "openrouter": 138,
-        "vercel-gateway": 37
+        "vercel-gateway": 36
       },
       "modalities": {
         "openrouter": 139,
-        "vercel-gateway": 37
+        "vercel-gateway": 36
       },
       "pricing.cachedInputPerMTok": {
-        "litellm": 105,
-        "openrouter": 11,
+        "litellm": 104,
+        "openrouter": 10,
         "vercel-gateway": 13
       },
       "pricing.inputPerMTok": {
-        "litellm": 147,
+        "litellm": 146,
         "openrouter": 31,
         "vercel-gateway": 14
       },
       "pricing.outputPerMTok": {
-        "litellm": 147,
+        "litellm": 146,
         "openrouter": 31,
         "vercel-gateway": 14
       }
     },
-    "liveModels": 623
+    "liveModels": 622
   },
-  "generatedAt": "2026-10-08T02:03:58.800Z",
+  "generatedAt": "2026-10-08T13:49:07.657Z",
   "livebench": {
     "_note": "LiveBench 官方榜（Apache-2.0，本轮调研里许可证最干净的一份）。release 清单优先从上游仓库的 LIVE_BENCH_RELEASES 常量解析，解析失败才用内置兜底清单——写死清单意味着新 release 不会被自动发现，与「发布后无人维护」的承诺相悖。releasesSkipped 里是题目集换代之前的 release，跨那个断点分数不可比（中位差 27.6 分）。",
     "matchedModels": 125,
@@ -1990,13 +1990,7 @@
       "tencent/hy-mt2-pro"
     ]
   },
-  "releaseDateConflicts": [
-    {
-      "from": "2025-08-01",
-      "id": "mistral/codestral-2508",
-      "to": "2025-07-30"
-    }
-  ],
+  "releaseDateConflicts": [],
   "sources": {
     "derived": {
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
@@ -2023,11 +2017,11 @@
       "ok": true
     },
     "models.dev": {
-      "note": "models.json 447 条；api.json 226 provider / 8451 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
+      "note": "models.json 447 条；api.json 226 provider / 8459 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
       "ok": true
     },
     "openrouter": {
-      "note": "467 条；已剔除 artificial_analysis 292 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "468 条；已剔除 artificial_analysis 292 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -2035,7 +2029,7 @@
       "ok": true
     },
     "vercel-gateway": {
-      "note": "413 条（language 268 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "note": "412 条（language 267 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
@@ -2140,12 +2134,10 @@
         "xai/grok-4.7"
       ]
     },
-    "liveModels": 623,
+    "liveModels": 622,
     "upstreamRows": 328,
     "withFlop": 85
   },
   "vendorRegistrySource": "src/data/vendor-registry.ts",
-  "warnings": [
-    "1 个已存在模型的发布日期发生变化，已记入 data/sync-report.json 待审"
-  ]
+  "warnings": []
 }

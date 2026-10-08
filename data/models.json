@@ -1225,7 +1225,7 @@
       "unit": "pct"
     }
   ],
-  "generatedAt": "2026-10-08T02:03:58.800Z",
+  "generatedAt": "2026-10-08T13:49:07.657Z",
   "models": [
     {
       "benchmarks": {
@@ -2473,7 +2473,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1223.3,
+          "score": 1222.9,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -9807,7 +9807,7 @@
         "webdev_arena_elo": null
       },
       "capabilities": {
-        "promptCaching": true,
+        "promptCaching": false,
         "reasoning": true,
         "structuredOutput": true,
         "toolCall": true
@@ -9863,7 +9863,7 @@
         "totalB": 27.78
       },
       "pricing": {
-        "cachedInputPerMTok": 0.03,
+        "cachedInputPerMTok": null,
         "inputPerMTok": 0.6,
         "outputPerMTok": 3.6
       },
@@ -9884,7 +9884,6 @@
         "name": "models.dev",
         "openWeights": "models.dev",
         "params.totalB": "huggingface",
-        "pricing.cachedInputPerMTok": "openrouter",
         "pricing.inputPerMTok": "models.dev",
         "pricing.outputPerMTok": "models.dev",
         "releaseDate": "models.dev",
@@ -35655,11 +35654,12 @@
         "pricing.outputPerMTok": "litellm",
         "releaseDate": "vercel-gateway",
         "releaseDatePrecision": "vercel-gateway",
+        "retiredAt": "derived",
         "vendorId": "derived"
       },
       "releaseDate": "2026-09-29",
       "releaseDatePrecision": "day",
-      "retiredAt": null,
+      "retiredAt": "2026-10-08",
       "scores": [],
       "slug": "deepseek-deepseek-v4-1-flash-fast",
       "trainingComputeFlop": null,
@@ -39376,7 +39376,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1247.8,
+          "score": 1247.9,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -39469,7 +39469,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1247.8,
+          "score": 1247.9,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -39989,7 +39989,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1261.1,
+          "score": 1261.8,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -40083,7 +40083,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1261.1,
+          "score": 1261.8,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -40391,7 +40391,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1250.3,
+          "score": 1250.2,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -43876,7 +43876,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1328.1,
+          "score": 1327.8,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -44794,7 +44794,7 @@
         "totalB": 25.81
       },
       "pricing": {
-        "cachedInputPerMTok": 0.049,
+        "cachedInputPerMTok": 0.05,
         "inputPerMTok": 0.1,
         "outputPerMTok": 0.34
       },
@@ -56474,7 +56474,7 @@
         "toolCall": null
       },
       "coding": [],
-      "contextWindow": 524288,
+      "contextWindow": 1048576,
       "firstSeenAt": "2026-10-07T02:03:24.986Z",
       "id": "mistral/mistral-large-4-0",
       "knowledgeCutoff": null,
@@ -80516,7 +80516,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1237.7,
+          "score": 1237.4,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -80605,7 +80605,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1383.2,
+          "score": 1383,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -80694,7 +80694,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1398.5,
+          "score": 1397.6,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92884,7 +92884,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1296.7,
+          "score": 1294.2,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -92967,7 +92967,7 @@
         {
           "attribution": "third-party",
           "league": "arena_text_to_image",
-          "score": 1170.1,
+          "score": 1169.7,
           "source": "lmarena",
           "sourceUrl": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
           "unit": "elo"
@@ -97813,43 +97813,43 @@
   ],
   "sources": {
     "derived": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "管线内推导的字段（规模档位、缓存能力、退役判定）",
       "ok": true
     },
     "epoch.ai": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "ZIP 89 个条目；取到 7/7 个指标；编程赛制 9 个；全榜单 78 个；训练算力 328 行；去重后 417 个模型实体；合规拦截 1 个文件",
       "ok": true
     },
     "huggingface": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "请求 171 个开源模型，成功 167，失败 4",
       "ok": true
     },
     "litellm": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "4503 条（对话类 3587 条）；用作新模型的第三方佐证，以及 models.dev 缺项时的定价/上下文兜底",
       "ok": true
     },
     "livebench": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "Apache-2.0 / DATASHEET 明文「no copyrights on the data」。采用 6 个同期 release（2026-06-25, 2026-01-08, 2025-12-23, 2025-11-25, 2025-05-30, 2025-04-25）；跳过题目集换代前的 5 个（2024-06-24, 2024-07-26, 2024-08-31, 2024-11-25, 2025-04-02）——实测跨这个断点同一模型的 Coding 分中位差 27.6 分，不可同池。",
       "ok": true
     },
     "lmarena": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
       "note": "7/7 个分榜，共 325 条 Arena 分",
       "ok": true
     },
     "models.dev": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
-      "note": "models.json 447 条；api.json 226 provider / 8451 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
+      "note": "models.json 447 条；api.json 226 provider / 8459 条；benchmarks[] 1090 条，已拦截 AA 血缘 176 条，非编程口径跳过 553 条",
       "ok": true
     },
     "openrouter": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
-      "note": "467 条；已剔除 artificial_analysis 292 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
+      "note": "468 条；已剔除 artificial_analysis 292 处（AA ToS 合规）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     },
     "override": {
@@ -97858,8 +97858,8 @@
       "ok": true
     },
     "vercel-gateway": {
-      "fetchedAt": "2026-10-08T02:03:58.800Z",
-      "note": "413 条（language 268 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
+      "fetchedAt": "2026-10-08T13:49:07.657Z",
+      "note": "412 条（language 267 条）；用于新模型发现、发布日期投票，以及 models.dev 缺项时的定价/上下文/模态兜底",
       "ok": true
     }
   },
